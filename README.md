@@ -1,2 +1,5 @@
 # California-Housing-KNN-Regression
-A Python script that implements k-nearest neighbors (KNN) regression to predict housing prices in California using the scikit-learn library.
+
+One-line description: A Python script that implements k-nearest neighbors (KNN) regression to predict housing prices in California using the scikit-learn library.
+
+Summary: This script utilizes the California housing dataset from scikit-learn, which includes features such as house age, number of rooms, and location details. The data is first scaled using StandardScaler to normalize feature scales, improving the performance of the KNN algorithm. The dataset is split into training and testing sets with an 80/20 ratio. The `knn_regression` function calculates the Euclidean distance between a test instance and all training instances, then selects the k-nearest neighbors to predict the housing price by averaging their values. This example uses k=3 to predict the price for a single test instance, demonstrating the simplicity and effectiveness of KNN for regression tasks. The script outputs the predicted price alongside the actual price for comparison, illustrating the practical application of machine learning techniques in real estate valuation.
